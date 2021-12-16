@@ -1,4 +1,4 @@
-# Project 3: Understanding User Behavior
+# Understanding User Behavior
 
 ## Project Summary:
 Through this project, we function as data scientists at a game development company where latest mobile game has two events you're interested in tracking: `buy a sword` & `join guild` (each having metadata characteristics). We are tasked with instrumenting the API server to log events to Kafka as well as assembling a data pipeline to catch these events by using Spark streaming to filter, selecting event types from Kafka, and landing them into HDFS/parquet to make them available for analysis using Presto. Also, we must use Apache Bench to generate test data for the pipeline and produce an analytics report with pipeline description and basic event analysis. 
